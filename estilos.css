@@ -11,7 +11,7 @@
   h1{color: white;
     text-align: center;/* se usa para centrar elementos de linea como el contenido del h1 imagenes label */
     margin: 40px 50px;
-    border: solid 5px green;
+    border: solid 5px #39695D;
     border-left: solid 14px transparent;
     border-right: solid 14px transparent;
     width: 30%;
@@ -33,7 +33,7 @@ form{width: 40%;
 fieldset{background-color: #9EC2BA;
   margin-bottom: 20px;}
 
-  legend{background-color: green;
+  legend{background-color: #39695D;
   color: white;
 border-radius: 5px;
 padding: 10px;}
