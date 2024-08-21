@@ -11,6 +11,11 @@
   h1{color: white;
     text-align: center;/* se usa para centrar elementos de linea como el contenido del h1 imagenes label */
     margin: 40px 50px;
+    border: solid 5px green;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+    width: 30%;
+    margin: 10px  auto; /*  respecto al padre contendor en este caso body */
     
   }
 
@@ -25,8 +30,13 @@ form{width: 40%;
   margin: 0 auto;            
 }
 
-section{background-color: #9EC2BA;
-  margin-bottom: 50px;}
+fieldset{background-color: #9EC2BA;
+  margin-bottom: 20px;}
+
+  legend{background-color: green;
+  color: white;
+border-radius: 5px;
+padding: 10px;}
   
 
 
@@ -66,12 +76,18 @@ legend{text-align: left;}
 
 .actividades [type="checkbox"]{text-align: left;}
 
+
+.terminos{text-align: left;}
+
+
 .contacto{border: solid; 
     color: black;}
 
+.terminos div { 
+margin-bottom: 12px;}
 
-.actividades {border: solid; 
-color: black;}
+
+
 
 button{
   justify-content: space-around;    
@@ -81,10 +97,7 @@ button{
   margin: 90 auto;
 }
 
-h1{
-  display: flex;
   
-}
 
 .datos2{
   margin-bottom: 60% auto;

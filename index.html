@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-        <h1><legend>&#128170;Veni al gym !</legend></h1>
+        <h1><span>&#128170;</span>Veni al gym !</h1>
+
             <form >
-                <section class="datospersonales">
-                    <h2 class="datos2"><legend>&#128587;Datos Personales &#128064;</legend></h2>
+                <fieldset class="datospersonales">
+                    <legend>&#128587;Datos Personales &#128064;</legend>
                     <label for="nombre">Nombre *: </label>
                     <input type="text" id="nombre" name="nombre" required>
                     <label for="apellido">apellido: </label>
@@ -47,23 +48,23 @@
                         <label for="Otros">otros</label>
                         <input type="radio" value="Otro" name="sexo"  required>
                     </div>
-                </section>
+                </fieldset>
 
 
             <hr>
-                <section class="contacto">
+                <fieldset class="contacto">
 
-            <h2><legend>&#128241;Contacto&#128231;	
-            </legend></h2>
+            <legend>&#128241;Contacto&#128231;
+            </legend>
 
                     <label for="telefono">Telefono: </label>
                     <input type="number" placeholder="Codigo de area y Numero" id="telefono" name="telefono" required><br><br>
                 <label for="email">Direccion de correo electronico </label>
                     <input type="email"  placeholder="mail@mail.com" name="email" required>
-                </section>
+                </fieldset>
 <hr>
-                <section class="actividades">
-                    <h3><legend>&#128692; Actividades</legend></h3>
+                <fieldset class="actividades">
+                    <legend>&#128692; Actividades</legend>
                     <p>por favor; indique cuales actividades te interesan</p>
                     <p>Sede Palermo</p>
                     <label ><input type="checkbox" name="Sedepalermo" value="Vazque">Vazquet</label>
@@ -77,16 +78,24 @@
                     <label ><input type="checkbox" name="Sedepalermo" value="Futbol">Futbol</label>
                     <label ><input type="checkbox" name="Sedepalermo" value="Tenis">Tenis</label>
 
-                </section>
-            <label ><input type="checkbox" ></label>
-                    <label >acepto terminos y condiciones</label>
-                    <label ><input type="checkbox" ></label>
-                    <label >deseo recibir novedades</label>
+                </fieldset>
+
+                <div class="terminos">
+                    <div><input type="checkbox" >
+                        <label >acepto terminos y condiciones</label>
+                    </div>
+
+                        <div><input type="checkbox" >
+                            <label >deseo recibir novedades</label>
+                        </div>
+
                     <p>campo obligatorio</p>
-                    <br>
-            <button>Iniciar afiliacion</button>
-            <button>Restablecer</button>
-        </form>
+                    </div>
+
+            <button type="submit">Iniciar afiliacion</button>
+            <button type="reset">Restablecer</button>
+
+       </form>
 
 </body>
 </html>
