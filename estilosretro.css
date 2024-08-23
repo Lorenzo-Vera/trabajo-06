@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
 
 
 * { margin: 0;
@@ -35,7 +35,7 @@
 
   
   form{width: 100%;
-    text-align: center;/* se pueden centrar label, input, texto ,botones, elementos de linea */
+    text-align: center; se pueden centrar label, input, texto ,botones, elementos de linea 
     margin: px  auto; 
    
             
@@ -44,7 +44,7 @@
 
    legend{background-color: #485069;
     color: white;
-/*   border-radius: 5px; */
+   border-radius: 5px; 
   padding: 10px;}
       
    fieldset{  background-image: linear-gradient(45deg, rgb(122, 33, 33),rgb(82, 82, 201) )  }
@@ -110,4 +110,4 @@ transform: translateX(5px)
     
   .datos2{
     margin-bottom: 100% auto;font-family:"Jersey 10", sans-serif ;
-  }
+  } */
